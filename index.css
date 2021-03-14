@@ -1,0 +1,99 @@
+body
+{
+    background:url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #24231E;
+}
+
+a:link,
+a:visited
+{
+    color:#b52667;
+}
+a:focus,
+a:hover,
+a:active
+{
+    color:#702F4D;
+}
+
+h1
+{
+    font-size: 2.5rem;
+}
+h2
+{
+    font-size: 1rem;
+    font-weight:lighter;
+}
+
+#wrapper
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+main
+{
+    position: relative;
+    max-width: 100%;
+    background-color: #f7f7f7;
+    padding: 3rem 2.5rem;
+    border-radius:.5rem;
+    box-shadow:0px 0px 3rem rgba(0,0,0,0.7);
+    text-align: center;
+}
+main > .fullwidth
+{
+    margin: 2.5rem calc(-2.5rem);
+    width: calc(100% + 5rem);
+    max-width: calc(100% + 5rem);
+}
+
+hr
+{
+    margin:2.5rem 6rem;
+}
+
+.icons li
+{
+    display: inline-block;
+    margin: .5rem 1rem;
+}
+.icons li a
+{
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: .5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: .5rem;
+}
+.icons li a:link,
+.icons li a:visited
+{
+    background: #24231E;
+}
+.icons li a:focus,
+.icons li a:hover
+{
+    background: #b52667;
+}
+.icons li a:active
+{
+    background: #702F4D;
+}
+.icon
+{
+    width:1.5rem;
+    height:1.5rem;
+    fill: white;
+}
