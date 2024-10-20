@@ -10,13 +10,13 @@ body
 a:link,
 a:visited
 {
-    color:#b52667;
+    color:#386d91;
 }
 a:focus,
 a:hover,
 a:active
 {
-    color:#702F4D;
+    color:#123d55;
 }
 
 h1
@@ -93,11 +93,11 @@ hr
 .icons li a:focus,
 .icons li a:hover
 {
-    background: #b52667;
+    background: #386d91;
 }
 .icons li a:active
 {
-    background: #702F4D;
+    background: #123d55;
 }
 .icon
 {
